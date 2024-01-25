@@ -679,6 +679,7 @@ img {
   display: flex;
 }
 
+
 .services-list .services-items:not(:last-child) {
   margin-right: 24px;
 }

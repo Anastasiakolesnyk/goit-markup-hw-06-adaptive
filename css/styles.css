@@ -68,7 +68,7 @@ ul,ol {
     }
   }
 
-/*MOBILE STYLES HEADER*/
+/*MOBILE STYLES */
 
  
   
@@ -283,10 +283,149 @@ ul,ol {
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
-/*MOBILE STYLES HEADER*/
 
-/*TABLET HEADER STYLES*/
+  .overlay {
+    max-width: 320px;
+    height: 432px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--addition-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hw6-adaptive/Dark-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+
+    .overlay {
+      max-width: 320px;
+      height: 432px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--addition-color);
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hw6-adaptive/Dark-bg-mobile@2x.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    
+  }
+
+  .section-h1 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    text-align: center;
+  }
+
+  .main-title {
+    width: 216px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.07;
+    letter-spacing: var(--letter-spacing);
+  
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .oder-service-button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+  
+    display: inline-block;
+    min-width: 170px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    border-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .oder-service-button:hover,
+  .oder-service-button:focus {
+    background-color: #404bbf;
+  }
+
+  /* skills section */
+
+.our-skills-list{
+  display: flex;
+  flex-direction: column;
+}
+  
+  .skills-icons {
+   display: none;
+  }
+  
+  .strategy {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+    color: var(--main-color);
+    margin-bottom: 8px;
+  }
+  .strategy-paragraph{
+    padding-bottom: 72px;
+  }
+  .punctuality {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+    color: var(--main-color);
+    margin-bottom: 8px;
+  }
+  .punctuality-paragraph{
+    padding-bottom: 72px;
+  }
+  .diligence {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+    color: var(--main-color);
+    margin-bottom: 8px; 
+  }
+  .diligence-paragraph{padding-bottom: 72px;}
+
+  .technologies {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: var(--letter-spacing);
+    color: var(--main-color);
+    margin-bottom: 8px;
+  }
+
+  }
+
+
+
+/*MOBILE STYLES*/
+
+/*TABLET STYLES*/
 @media screen and (min-width: 768px){
     .container {
         max-width: 768px;
@@ -311,7 +450,6 @@ ul,ol {
 
         .site-nav {
             display: flex;
-            margin-left: 77px;
           }
 
           .site-nav .items:not(:last-child) {
@@ -442,13 +580,281 @@ ul,ol {
             align-items: flex-end;
             font-style: normal;
           }
+
+
+          .overlay {
+            max-width: 768px;
+            height: 436px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: var(--addition-color);
+            background-image: linear-gradient(
+                to right,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+              ),
+              url(../images/hw6-adaptive/Dark-bg-tablet.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+          }
+
+          @media screen and (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi) {
+        
+            .overlay {
+              max-width: 768px;
+              height: 436px;
+              margin-left: auto;
+              margin-right: auto;
+              background-color: var(--addition-color);
+              background-image: linear-gradient(
+                  to right,
+                  rgba(46, 47, 66, 0.7),
+                  rgba(46, 47, 66, 0.7)
+                ),
+                url(../images/hw6-adaptive/Dark-bg-tablet@2x.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+            } }
+        
+          .section-h1 {
+            padding-top: 112px;
+            padding-bottom: 112px;
+            text-align: center;
+          }
+        
+          .main-title {
+            width: 496px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 1.07;
+            letter-spacing: var(--letter-spacing);
+          
+            margin-bottom: 36px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        
+          .oder-service-button {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 1.18;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            background-color: #4d5ae5;
+            cursor: pointer;
+          
+            display: inline-block;
+            min-width: 170px;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-radius: 4px;
+            border-color: transparent;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          }
+          
+          .oder-service-button:hover,
+          .oder-service-button:focus {
+            background-color: #404bbf;
+          }
+/* skills */
+
+.our-skills-list{
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
 }
 
-/*TABLET HEADER STYLES*/
+          .skills-icons {
+            display: none;
+           }
 
-/*DESKTOP HEADER STYLES*/
+           .strategy {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.2;
+            letter-spacing: var(--letter-spacing);
+            color: var(--main-color);
+            margin-bottom: 8px;
+          }
+          .punctuality {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.2;
+            letter-spacing: var(--letter-spacing);
+            color: var(--main-color);
+            margin-bottom: 8px;
+          }
+          .diligence {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.2;
+            letter-spacing: var(--letter-spacing);
+            color: var(--main-color);
+            margin-bottom: 8px;
+          }
+          .technologies {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.2;
+            letter-spacing: var(--letter-spacing);
+            color: var(--main-color);
+            margin-bottom: 8px;
+          }
+
+
+}
+  
+
+/*TABLET STYLES*/
+
+/*DESKTOP STYLES*/
 @media screen and (min-width: 1158px){
 .container{ max-width: 1158px;
 padding: 0 15px;}
+
+.overlay {
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--addition-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hw6-adaptive/Dark-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-/*DESKTOP HEADER STYLES*/
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  .overlay {
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--addition-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hw6-adaptive/Dark-bg-desktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.section-h1 {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+
+.main-title {
+  width: 496px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: var(--letter-spacing);
+
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.oder-service-button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+
+  display: inline-block;
+  min-width: 170px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+  border-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.oder-service-button:hover,
+.oder-service-button:focus {
+  background-color: #404bbf;
+}
+
+/* skills */
+
+.our-skills-list {
+  display: flex;
+}
+
+.our-skills-list .skills-items:not(:last-child) {
+  margin-right: 24px;
+}
+
+.skills-icons {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  height: 112px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(142, 143, 153, 1)
+}
+
+.strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+  margin-bottom: 8px;
+}
+.punctuality {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+  margin-bottom: 8px;
+}
+.diligence {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+  margin-bottom: 8px;
+}
+.technologies {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+  color: var(--main-color);
+  margin-bottom: 8px;
+}
+
+}
+  
+  /*DESKTOP STYLES*/ 
