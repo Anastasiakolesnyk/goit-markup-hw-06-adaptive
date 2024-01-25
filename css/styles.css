@@ -805,6 +805,8 @@ padding: 0 15px;}
 
 .our-skills-list {
   display: flex;
+  flex-direction: none;
+  flex-wrap: nowrap;
 }
 
 .our-skills-list .skills-items:not(:last-child) {
