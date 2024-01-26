@@ -478,7 +478,8 @@ ul,ol {
     padding-bottom: 100px;
   }
   .footer-description{
-    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
   }
   .webstudio-down {
     font-family: "Raleway";
@@ -488,6 +489,7 @@ ul,ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    text-align: center;
   }
   .webstudio-down > span {
     font-family: "Raleway";
@@ -542,8 +544,9 @@ ul,ol {
     background-color: #31d0aa;
   }
   .footer-subscribe {
-    margin-left: auto;
-  }
+      margin-left: auto;
+    }
+  
   .footer-subscribe-title {
     font-weight: 500;
     font-size: 16px;
@@ -552,6 +555,12 @@ ul,ol {
     margin-bottom: 16px;
     display: block;
     text-align: center;
+  }
+
+  .footer-subscribe-elements{
+display: flex;
+flex-direction: column;
+align-items: center;
   }
   
   .footer-subscribe-input {
@@ -573,7 +582,6 @@ ul,ol {
     line-height: 1.5;
     text-align: center;
     padding: 8px 56px 8px 24px;
-    margin-left: 24px;
   
     background-color: var(--button-color);
     border-color: var(--button-color);
