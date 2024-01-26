@@ -169,7 +169,7 @@ ul,ol {
     padding-bottom: 30px;
   }
 
-  .mobile-menu-wrapper.is-hidden{
+  .mobile-menu-wrapper.is-open{
     opacity: 1;
         visibility: visible;
         pointer-events: auto;
@@ -215,6 +215,7 @@ ul,ol {
       text-transform: capitalize;
       margin-bottom: auto;
       list-style-type: none;
+      padding-bottom: 168px;
   }
  .mobile-menu-link{
     display: block;
