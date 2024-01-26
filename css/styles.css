@@ -1003,10 +1003,17 @@ align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-description{
+.footer-addition{
+  width: 496px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  margin-left: auto;
+  row-gap: 72px;
+  margin-right: auto;
 }
+
 .webstudio-down {
   font-family: "Raleway";
   font-weight: 800;
@@ -1066,8 +1073,6 @@ align-items: center;
 .footer-link:hover {
   background-color: #31d0aa;
 }
-.footer-subscribe {
-    margin-left: auto;}
 
 .footer-subscribe-title {
   font-weight: 500;
@@ -1075,7 +1080,7 @@ align-items: center;
   line-height: 24px;
   color: #ffffff;
   margin-bottom: 16px;
-  display: block;
+display: block;
 }
 
 .footer-subscribe-elements{
@@ -1099,7 +1104,6 @@ gap: 24px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   text-align: center;
   padding: 8px 56px 8px 24px;
 
@@ -1291,6 +1295,13 @@ flex-wrap: nowrap;
 .our-team-list .our-team-items:not(:last-child) {
   margin-right: 24px;
 }
+/* footer */
+.footer-addition{
+  min-width: 1128px;
+    justify-content: center;
 }
-/* Footer */
+.p-webstudio{
+  margin-right: 120px;
+  max-width: 264px;
+}
   /*DESKTOP STYLES*/
