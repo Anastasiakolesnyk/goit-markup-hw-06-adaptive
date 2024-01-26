@@ -70,10 +70,6 @@ ul,ol {
 
 /*MOBILE STYLES */
 
- 
-  
- 
-  
 /*Header*/
 
 .header {
@@ -419,6 +415,31 @@ ul,ol {
     margin-bottom: 8px;
   }
 
+  /* Our team */
+  .section-our-team {
+    background-color: #f4f4fd;
+  }
+  .our-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: var(--letter-spacing);
+    text-transform: capitalize;
+    color: var(--main-color);
+    margin-bottom: 72px;
+    text-align: center;
+  }
+  .our-team-list {
+    text-align: center;
+  }
+  .our-team-items {
+    margin-bottom: 72px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
   }
 
 
@@ -670,6 +691,11 @@ ul,ol {
   flex-direction: row;
     flex-wrap: wrap;
 }
+.skills-items{
+  flex-basis: calc((100% - 10px) / 2);
+  padding-bottom: 72px;
+  
+}
 
           .skills-icons {
             display: none;
@@ -683,6 +709,14 @@ ul,ol {
             color: var(--main-color);
             margin-bottom: 8px;
           }
+          .strategy-paragraph {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: var(--letter-spacing);
+            color: var(--addition-color);
+            width: 320px;
+          }
           .punctuality {
             font-weight: 700;
             font-size: 36px;
@@ -690,6 +724,14 @@ ul,ol {
             letter-spacing: var(--letter-spacing);
             color: var(--main-color);
             margin-bottom: 8px;
+          }
+          .punctuality-paragraph {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: var(--letter-spacing);
+            color: var(--addition-color);
+            width: 356px;
           }
           .diligence {
             font-weight: 700;
@@ -699,6 +741,14 @@ ul,ol {
             color: var(--main-color);
             margin-bottom: 8px;
           }
+          .diligence-paragraph {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: var(--letter-spacing);
+            color: var(--addition-color);
+            width: 356px;
+          }
           .technologies {
             font-weight: 700;
             font-size: 36px;
@@ -706,6 +756,14 @@ ul,ol {
             letter-spacing: var(--letter-spacing);
             color: var(--main-color);
             margin-bottom: 8px;
+          }
+          .technologies-paragraph {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: var(--letter-spacing);
+            color: var(--addition-color);
+            width: 356px;
           }
 
 
@@ -805,8 +863,9 @@ padding: 0 15px;}
 
 .our-skills-list {
   display: flex;
-  flex-direction: none;
   flex-wrap: nowrap;
+  flex-direction: none;
+  justify-content: center;
 }
 
 .our-skills-list .skills-items:not(:last-child) {
@@ -832,7 +891,8 @@ padding: 0 15px;}
   color: var(--main-color);
   margin-bottom: 8px;
 }
-.punctuality {
+
+ .punctuality {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
