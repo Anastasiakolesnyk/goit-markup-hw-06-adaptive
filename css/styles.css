@@ -1232,11 +1232,13 @@ align-items: center;
 .footer-addition{
   width: 496px;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 24px;
-  margin-left: auto;
-  margin-right: auto;}
+margin-left: auto;
+margin-right: auto;
+}
 
 .webstudio-down {
   font-family: "Raleway";
@@ -1750,13 +1752,9 @@ flex-wrap: nowrap;
 /* footer */
 .footer-addition{
   width: auto;
-  display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   margin-left: auto;
-  row-gap: 72px;
   align-items: baseline;
-  justify-content: center;
 }
 .footer-description{ margin-bottom: 0;}
 .footer-subscribe{
