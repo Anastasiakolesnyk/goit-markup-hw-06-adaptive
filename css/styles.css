@@ -283,7 +283,6 @@ ul,ol {
 
   .overlay {
     max-width: 320px;
-    height: 432px;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--addition-color);
@@ -302,7 +301,6 @@ ul,ol {
 
     .overlay {
       max-width: 320px;
-      height: 432px;
       margin-left: auto;
       margin-right: auto;
       background-color: var(--addition-color);
@@ -382,9 +380,11 @@ ul,ol {
     letter-spacing: var(--letter-spacing);
     color: var(--main-color);
     margin-bottom: 8px;
+    text-align: center;
   }
   .strategy-paragraph{
-    padding-bottom: 72px;
+   margin-bottom: 72px;
+    font-weight: 500;
   }
   .punctuality {
     font-weight: 700;
@@ -393,9 +393,11 @@ ul,ol {
     letter-spacing: var(--letter-spacing);
     color: var(--main-color);
     margin-bottom: 8px;
+    text-align: center;
   }
   .punctuality-paragraph{
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    font-weight: 500;
   }
   .diligence {
     font-weight: 700;
@@ -404,8 +406,12 @@ ul,ol {
     letter-spacing: var(--letter-spacing);
     color: var(--main-color);
     margin-bottom: 8px; 
+    text-align: center;
   }
-  .diligence-paragraph{padding-bottom: 72px;}
+  .diligence-paragraph{
+    margin-bottom: 72px;
+  font-weight: 500;
+}
 
   .technologies {
     font-weight: 700;
@@ -414,6 +420,10 @@ ul,ol {
     letter-spacing: var(--letter-spacing);
     color: var(--main-color);
     margin-bottom: 8px;
+    text-align: center;
+  }
+  .technologies-paragraph{
+    font-weight: 500;
   }
 
   /* Our team */
@@ -443,6 +453,7 @@ ul,ol {
   }
   .staff {
     margin-bottom: 8px;
+    font-weight: 500;
   }
   
   .staff-main {
@@ -509,6 +520,9 @@ ul,ol {
     color: #e7e9fc;
     margin-top: 16px;
     width: 264px;
+  }
+  .footer-social-media{
+    margin-top: 72px;
     margin-bottom: 72px;
   }
   .footer-title {
@@ -524,7 +538,6 @@ ul,ol {
     gap: 16px;
     display: flex;
     justify-content: center;
-    margin-bottom: 72px;
   }
   .footer-item {
     width: 40px;
@@ -587,6 +600,7 @@ align-items: center;
     background-color: var(--button-color);
     border-color: var(--button-color);
     border-radius: 4px;
+    border: 1px;
     color: #ffffff;
   
     position: relative;
@@ -924,16 +938,15 @@ align-items: center;
           }
 
           .contacts-nav {
+            font-weight: 500;
             display: inline-flex;
             flex-direction: column;
-            margin-left: auto;}
+            margin-left: auto;
+          gap: 12px;}
 
-            .contacts-nav .items-contacts:not(:last-child) {
-            margin-right: 40px;
-          }
 
           .mailto {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 1.5;
             letter-spacing: var(--letter-spacing);
             color: var(--addition-color);
@@ -945,7 +958,7 @@ align-items: center;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
           }
           .tel {
-            font-size: 16px;
+            font-size: 12px;
             line-height: 1.5;
             letter-spacing: var(--letter-spacing);
             color: var(--addition-color);
@@ -1069,10 +1082,10 @@ align-items: center;
   display: flex;
   flex-direction: row;
     flex-wrap: wrap;
+    row-gap: 72px;
 }
 .skills-items{
-  flex-basis: calc((100% - 10px) / 2);
-  padding-bottom: 72px;
+  flex-basis: calc((100% - 12px) / 2);
   
 }
 
@@ -1223,8 +1236,7 @@ align-items: center;
   flex-wrap: wrap;
   column-gap: 24px;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto;}
 
 .webstudio-down {
   font-family: "Raleway";
@@ -1252,7 +1264,6 @@ align-items: center;
   color: #e7e9fc;
   margin-top: 16px;
   width: 264px;
-  margin-bottom: 72px;
 }
 .footer-title {
   font-weight: 500;
@@ -1567,6 +1578,20 @@ gap: 24px;
 .container{ max-width: 1158px;
 padding: 0 15px;}
 
+.mailto{
+font-size: 16px;
+}
+.tel{
+font-size: 16px;
+margin-right: 40px;
+}
+.contacts-nav {
+  display: contents;
+  margin-left: auto;
+}
+.contacts-nav .items-contacts:not(:last-child) {
+  margin-right: 40px;
+}
 .overlay {
   max-width: 1440px;
   height: 600px;
@@ -1661,7 +1686,10 @@ padding: 0 15px;}
 .our-skills-list .skills-items:not(:last-child) {
   margin-right: 24px;
 }
-
+.skills-items{
+  flex-basis: calc((100% - 72px) / 4);
+  
+}
 .skills-icons {
   background-color: #f4f4fd;
   border-radius: 4px;
@@ -1722,17 +1750,15 @@ flex-wrap: nowrap;
 /* footer */
 .footer-addition{
   width: auto;
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: auto;
   row-gap: 72px;
-  column-gap: 0px;
   align-items: baseline;
   justify-content: center;
 }
-.p-webstudio{
-  margin-right: 120px;
-}
+.footer-description{ margin-bottom: 0;}
 .footer-subscribe{
   margin-left: 80px;
   }}
