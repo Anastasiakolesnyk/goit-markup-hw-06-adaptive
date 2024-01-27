@@ -1742,8 +1742,8 @@ margin-right: 40px;
   max-width: 1158px;
 }
 .our-team-list {
-  flex-direction: none;
 flex-wrap: nowrap;
+gap: unset;
 }
 
 .our-team-list .our-team-items:not(:last-child) {
@@ -1756,7 +1756,10 @@ flex-wrap: nowrap;
   margin-left: auto;
   align-items: baseline;
 }
-.footer-description{ margin-bottom: 0;}
+.footer-description{ margin-bottom: 0;
+  margin-right: 120px;
+}
+
 .footer-subscribe{
   margin-left: 80px;
   }}
